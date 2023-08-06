@@ -1,4 +1,6 @@
-import numpy as np
+from functions import *
 
-def test_list(N: int=10) -> list:
-	return [ii for ii in range(N)]
+def test_square():
+	value = 5
+	assert square(value) == 25
+
