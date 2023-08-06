@@ -1,4 +1,4 @@
-from functions import *
+from utils.functions import *
 
 def test_square():
 	value = 5
